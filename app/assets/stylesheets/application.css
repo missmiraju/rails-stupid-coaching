@@ -13,3 +13,70 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: cornflowerblue;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#question-field {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 400px;
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: cornflowerblue;
+}
+
+#question-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 80px;
+  height: 54px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: cornflowerblue;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+::placeholder {
+  color: cornflowerblue;
+  opacity: 1;
+}
+#link-back {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: cornflowerblue;
+}
+
+.answer-question {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  width: 500px;
+  height: 50px;
+  border: 2px solid cornflowerblue;
+  padding: 5px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.text-answer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: cornflowerblue;
+}
